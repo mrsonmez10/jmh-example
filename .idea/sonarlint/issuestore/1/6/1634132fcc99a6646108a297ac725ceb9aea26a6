@@ -1,11 +1,0 @@
-
-e
-java:S1104"OMake tlr a static final constant or non-public and provide accessors if needed.(â«Ğ´
-j
-java:S1104:"OMake tlr a static final constant or non-public and provide accessors if needed.(º†›øÿÿÿÿ
-w
-java:S1450"\Remove the "contaminators" field and declare it as a local variable in the relevant methods.(·É÷‡ûÿÿÿÿ
-\
-java:S4065 "FReplace this anonymous class with a call to "ThreadLocal.withInitial".(¢”åé
-\
-java:S4065,"FReplace this anonymous class with a call to "ThreadLocal.withInitial".(ö Ü

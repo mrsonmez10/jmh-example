@@ -1,6 +1,0 @@
-
-‡
-java:S11302"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‡€µªýÿÿÿÿ
-U	java:S8993";Do something with the "boolean" value returned by "delete".(é‘‚©úÿÿÿÿ
-i
-java:S40423"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(é‘‚©úÿÿÿÿ

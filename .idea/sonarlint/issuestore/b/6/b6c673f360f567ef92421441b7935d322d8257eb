@@ -1,8 +1,0 @@
-
-n
-java:S1450"QRemove the "bh" field and declare it as a local variable in the relevant methods.(×ä®ª8¶â¤ì1
-
-java:S1149&"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ì­ŠÜúÿÿÿÿ8ÓÍâ¤ì1
-]	java:S1253"<This block of commented-out lines of code should be removed.(¿Ù½şÿÿÿÿ8¶â¤ì1
-C
-java:S1068"&Remove this unused "bh" private field.(×ä®ª8•¶â¤ì1
