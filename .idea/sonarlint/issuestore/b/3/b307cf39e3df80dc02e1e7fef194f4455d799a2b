@@ -1,0 +1,21 @@
+
+h
+java:S1104"MMake c a static final constant or non-public and provide accessors if needed.(Ÿó´Âúÿÿÿÿ
+f
+java:S1104"PMake cmap a static final constant or non-public and provide accessors if needed.(‡ÿÎ
+f
+java:S1104"PMake amap a static final constant or non-public and provide accessors if needed.(„‹¦
+n
+java:S1104"XMake noAnnotation a static final constant or non-public and provide accessors if needed.(ºä€†
+i
+java:S1104 "SMake methods a static final constant or non-public and provide accessors if needed.(Ôû‰½
+d
+java:S3824T"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(Åßøà
+d
+java:S3824Z"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(ˆÜ÷
+i
+java:S38245"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(şÏ­Şøÿÿÿÿ
+V
+java:S1117-";Rename "methods" which hides the field declared at line 32.(¸¹…êÿÿÿÿÿ
+V
+java:S11175";Rename "methods" which hides the field declared at line 32.(şÏ­Şøÿÿÿÿ

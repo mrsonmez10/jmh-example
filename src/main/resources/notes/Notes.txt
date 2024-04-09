@@ -1,0 +1,32 @@
+/**
+	 * Notasyon Açıklamaları:
+	 *
+	 * @Benchmark -> Analizi yapılacak metodumuzu belirliyoruz
+	 * @BenchmarkMode -> Sonuçlarımızın elde edilme yöntemini belirler.
+	 *      - Throughput: Bir sistem veya cihazın belirli bir süre içinde işlenebilen veri miktarını ifade eder.
+	 *          - Örneğin, bir ağ bağlantısının veri aktarım hızını veya bir disk sürücüsünün okuma/yazma hızını ölçmek için throughput kullanılabilir.
+	 *            Yüksek throughput, genellikle daha iyi performansı gösterir.
+	 *      - AverageTime: Ortalama süre, bir işlem veya test için ortalama işlem süresini ifade eder.
+	 *      - SampleTime: Örnek süre, belirli bir işlem veya test için ölçülen bir veri noktasıdır.
+	 *          - Bu genellikle bir süreç boyunca performans değişikliklerini izlemek veya belirli anlarda performansı kontrol etmek için kullanılır.
+	 *      - SingleShotTime: Tek seferlik süre, yalnızca bir işlem veya test için ölçülen bir süredir.
+	 *
+	 * @OutputTimeUnit -> Sonuçlarımızın zaman cinsi.
+	 * @Warmup -> Asıl testlerimize geçmeden belirli kod optimizasyonları için ısınma turlarıdır.
+	 * @Setup -> Testlerimiz başlamadan önceki hazırlıklarımız.
+	 * @Measurement -> Ölçümleme yaparken kullandığımız ayarlar.
+	 * @State -> Kullanılan değişkenlerin hangi scope içerisinde geçerli olacağı belirlenir.
+	 *      - Benchmark: Aynı türdeki tüm örnekler tüm çalışan iş parçacıkları arasında paylaşılacaktır.
+	 *      - Group: Aynı türün tüm örnekleri aynı grup içindeki tüm iş parçacıkları arasında paylaşılacaktır. Her iş parçacığı grubuna kendi durum nesnesi verilecektir.
+	 *      - Thread: Aynı kıyaslamaya birden fazla durum nesnesi enjekte edilse bile, aynı türdeki tüm örnekler farklıdır.
+	 *
+	 * BlackHole kullanımı:
+	 *      - DataOutputStream dos = new DataOutputStream(new FileOutputStream("veri.dat")) normalde böyle kullanırken
+	 *     @Setup
+	 *     public void setup(Blackhole bh) {
+	 *         bos = new BlackholedOutputStream(bh);
+	 *         dos = new DataOutputStream(bos);
+	 *         s = "abcdefghijklmnopqrstuvxyz0123456789";
+	 *     }
+	 *     Bu kullanıma eviriyoruz ki yazma maliyeti olmasın. (Silencing Output)
+	 */

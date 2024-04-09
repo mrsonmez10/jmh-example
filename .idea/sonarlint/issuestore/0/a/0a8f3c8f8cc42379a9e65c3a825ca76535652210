@@ -1,0 +1,17 @@
+
+C
+java:S1604("(Make this anonymous inner class a lambda(ó¬åûÿÿÿÿ
+h	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÊóÈıÿÿÿÿ
+h	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÃÉÂúÿÿÿÿ
+c
+java:S40347"HReplace this "filter().findFirst().isPresent()" chain with "anyMatch()".(Ó¹¢úÿÿÿÿ
+c	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Î“é
+a
+java:S4034<"FReplace this "filter().findAny().isPresent()" chain with "anyMatch()".(şâè™ûÿÿÿÿ
+c	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ÅŸš
+c	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÙü
+^
+java:S4034F"HReplace this "filter().findFirst().isPresent()" chain with "anyMatch()".(Õè€ì
+c	java:S100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ„Í
+a
+java:S4034K"FReplace this "filter().findAny().isPresent()" chain with "anyMatch()".(¢ßû¹úÿÿÿÿ
